@@ -84,6 +84,9 @@ namespace Homework2
             Console.WriteLine("Shop:\n\t" + String.Join("\n\t", shop.Products.Select(
                 kvp => $"{kvp.Key.Name}: {kvp.Value}"
             )));
+
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
         }
 
 
